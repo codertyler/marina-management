@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :boat, param: :name
+      resources :boats, param: :name
     end
   end
 
