@@ -13,7 +13,8 @@
 #dock_table table,
 th,
 td {
-  border: 1px solid black;
+  border: 2px solid rgb(0, 0, 0);
+
 }
 
 #dock_table table,
@@ -25,4 +26,29 @@ th {
 td  {
   height: 50px;
   min-width: 150px;
+}
+
+.boat_color {
+  height: 10px;
+  width: 10px;
+  display: inline;
+}
+
+.cell_container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cell_container:hover {
+  background-color: rgb(240, 232, 232);
+}
+
+
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+
 }
