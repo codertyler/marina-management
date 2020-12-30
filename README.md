@@ -30,6 +30,6 @@ I learned to combine rails and react by creating a rails app with webpack enable
 
 # What I can do better if I had time?
 
-I would have definitely implmeneted drag and drop function instead of buttons to make changes in the dock position of a boat.
+I would have definitely implemented a drag and drop function instead of buttons to make changes in the dock position of a boat.
 
 
