@@ -18,7 +18,7 @@ In order to run locally user need to the following:
 ## Screenshots
   ### GIF
   
- (img src="https://raw.githubusercontent.com/codertyler/marina-management/master/public/screenshots/marina_management.gif" width="800")
+ <img src="https://raw.githubusercontent.com/codertyler/marina-management/master/public/screenshots/marina_management.gif" width="800">
   
   ### Initial Screen
  ![img](https://github.com/codertyler/marina-management/blob/master/public/screenshots/initial_screen.png)
