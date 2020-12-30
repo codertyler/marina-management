@@ -2,7 +2,7 @@
 
 Rails Server + PostgreSQL database back-end and React JS front-end Marine Management web-app.
 
-It connects to the Rails Server to display available boats with its respective dock number, name, length, and color in a table. User can:
+It connects to the Rails Server to display available boats with its respective dock number, name, length, and color in a table. A user can:
 * Add a boat
 * Move or change the dock of a boat
 * Delete a boat
