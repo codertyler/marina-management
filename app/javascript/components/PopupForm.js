@@ -5,7 +5,7 @@ import 'reactjs-popup/dist/index.css';
 
 export default function PopupForm() {
   
-  
+//This is the form for Adding new boats to the database
   
   const onClick = (event) => {
     event.preventDefault();

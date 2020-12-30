@@ -3,6 +3,8 @@ import React from 'react';
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
+//This component is for the changing the dock number
+
 export default function ChangeForm(props) {
   
   
@@ -16,6 +18,7 @@ export default function ChangeForm(props) {
 
     })
 
+    //refreshing the window after clicking the button
     window.location.reload(false);
 
 

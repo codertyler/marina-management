@@ -15,11 +15,14 @@ module Api
 
       end
 
+      #/api/v1/boats/:name
       def show
         boat = Boat.find_by(name: params[:name])
 
         render json: BoatSerializer.new(boat).serialized_json
       end
+
+      #/api/v1/boats/ creates new boat and posts to the database
 
       def create
         boat = Boat.new(boat_params)
@@ -32,6 +35,8 @@ module Api
 
       end
 
+      #Updates or patches an existing database based on name
+
       def update
         boat = Boat.find_by(name: params[:name])
 
@@ -42,6 +47,9 @@ module Api
         end
 
       end
+
+      #Deletes a boat based on name
+
 
       def destroy
         boat = Boat.find_by(name: params[:name])
@@ -57,6 +65,7 @@ module Api
 
       private 
 
+      #Permitted parameters
       def boat_params
       
           params.require(:boat).permit(:name, :length, :color, :docker_number)

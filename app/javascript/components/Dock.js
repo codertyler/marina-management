@@ -39,6 +39,8 @@ export default function Dock() {
     }
   };
 
+  //Finds color of the boat to display in the cell
+
   const findColor = (docker_number) => {
     const dataLength = data.data.length;
     for (let i = 0; i < dataLength; i++) {
@@ -50,6 +52,7 @@ export default function Dock() {
     }
   };
 
+  //Finds boat's length to display
   const findLength = (docker_number) => {
     const dataLength = data.data.length;
     for (let i = 0; i < dataLength; i++) {
@@ -61,11 +64,14 @@ export default function Dock() {
     }
   };
 
+  //Delete boat function attached to the delete button
   const deleteBoat = (docker_number) => {
     const dataLength = data.data.length;
     for (let i = 0; i < dataLength; i++) {
       if (data.data[i].attributes.docker_number === docker_number) {
+        //Deletes from the database
         axios.delete(`/api/v1/boats/${data.data[i].attributes.name}`)
+        //refreshes the window after clicking the button
         window.location.reload(false);
 
       } else {
@@ -80,6 +86,9 @@ export default function Dock() {
     console.log(event.target)
 
   }
+
+  //Checking if the dock number has any boat's docked from the database and pushing
+  //and pushing it as a row into gridDisplay to show as a table
 
   for (let i = 1; i <= 10; i++) {
     const row = (
@@ -115,11 +124,7 @@ export default function Dock() {
 
   return (
     <div className="dock_container">
-      {/* {data.data.map((item) => (
-        <li key={item.attributes.id}>
-          {item.attributes.name} {item.attributes.docker_number}{" "}
-        </li>
-      ))} */}
+     
       <h1>Marina Management Dock</h1>
       <Popup />
       <table>
