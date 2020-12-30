@@ -111,7 +111,7 @@ export default function Dock() {
               "m"
             : i + 10}{" "}
           <div className="boat_color" style={{ "background-color": `${findColor(i + 10)}` }}>{" "}&nbsp; &nbsp; &nbsp;{" "}</div>{" "}
-          {findRecord(i + 10) ? <div className="button_container"><button onClick={() => deleteBoat(i + 10)}>delete</button>  <ChangeDock /></div> : ""}
+          {findRecord(i + 10) ? <div className="button_container"><button onClick={() => deleteBoat(i + 10)}>delete</button>  <ChangeDock name={findRecord(i +10)} /></div> : ""}
 
         </td>
       </tr>
