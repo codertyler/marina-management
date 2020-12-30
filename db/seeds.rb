@@ -24,5 +24,11 @@ boats = Boat.create ([
     length: 5,
     color: "red",
     docker_number: 7
+  },
+  {
+    name: "Zaza",
+    length: 8,
+    color: "white",
+    docker_number: 17
   }
 ])

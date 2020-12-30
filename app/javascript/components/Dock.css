@@ -1,0 +1,28 @@
+.dock_container {
+  margin-top: 5%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#dock_table {
+  min-width: 500;
+}
+
+#dock_table table,
+th,
+td {
+  border: 1px solid black;
+}
+
+#dock_table table,
+th {
+  text-align: center;
+}
+
+#dock_table table,
+td  {
+  height: 50px;
+  min-width: 150px;
+}
