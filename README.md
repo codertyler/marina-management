@@ -1,6 +1,6 @@
 # Marine Management Take Homes Test
 
-Rails Server + PostgreSQL back-end and React JS front-end Marine Management web-app.
+Rails Server + PostgreSQL database back-end and React JS front-end Marine Management web-app.
 
 It connects to the Rails Server to Display available boats with its respective dock number in a table. User can:
 * Add a boat
@@ -11,7 +11,7 @@ In order to run locally user need to the following:
 
 * Clone locally
 * Configure PG server locally from database.yml file
-* Install bundle install and dependend gems
+* Install bundle install and dependent gems
 * npm and yarn install for JS dependencies 
 * Run "rails s"
 
