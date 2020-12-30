@@ -1,24 +1,35 @@
-# README
+# Marine Management Take Homes Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails Server + PostgreSQL database back-end and React JS front-end Marine Management web-app.
 
-Things you may want to cover:
+It connects to the Rails Server to display available boats with its respective dock number, name, length, and color in a table. A user can:
+* Add a boat
+* Move or change the dock of a boat
+* Delete a boat
 
-* Ruby version
+In order to run locally user need to the following:
 
-* System dependencies
+* Clone locally
+* Configure PG server locally from database.yml file
+* Install bundle install and dependent gems
+* npm and yarn install for JS dependencies 
+* Run "rails s"
 
-* Configuration
+## Screenshots
+  ### Initial Screen
+ ![img](https://github.com/codertyler/marina-management/blob/master/public/screenshots/initial_screen.png)
+ ### Add boat form
+ ![img](https://github.com/codertyler/marina-management/blob/master/public/screenshots/add_boat.png)
+ ### Change dock form
+ ![img](https://github.com/codertyler/marina-management/blob/master/public/screenshots/change_dock.png)
+ 
+ 
+# What I learned?
 
-* Database creation
+I learned to combine rails and react by creating a rails app with webpack enabled by including --webpack=react flag. Learned to create routes. Reaffirmed my knowledge in making axios API calls, and writing asynchronous code in React JS. 
 
-* Database initialization
+# What I can do better if I had time?
 
-* How to run the test suite
+I would have definitely implemented a drag and drop function instead of buttons to make changes in the dock position of a boat.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
