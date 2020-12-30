@@ -16,6 +16,10 @@ In order to run locally user need to the following:
 * Run "rails s"
 
 ## Screenshots
+  ### GIF
+  
+ (img src="https://github.com/codertyler/marina-management/blob/master/public/screenshots/marina_management.gif" width="800")
+  
   ### Initial Screen
  ![img](https://github.com/codertyler/marina-management/blob/master/public/screenshots/initial_screen.png)
  ### Add boat form
