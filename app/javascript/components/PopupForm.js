@@ -10,6 +10,10 @@ export default function PopupForm() {
   const onClick = (event) => {
     event.preventDefault();
 
+    if (event.target[3].value > 20) {
+      alert('Only 20 Docks available. Enter an available dock number.')
+    }
+
     axios.post('/api/v1/boats', {
       name: event.target[0].value,
       length: event.target[1].value,
