@@ -1,4 +1,4 @@
-# Marine Management Take Homes Test
+# Marine Dock Management
 
 Rails Server + PostgreSQL database back-end and React JS front-end Marine Management web-app.
 
@@ -27,13 +27,3 @@ In order to run locally user need to the following:
  ### Change dock form
  ![img](https://github.com/codertyler/marina-management/blob/master/public/screenshots/change_dock.png)
  
- 
-# What I learned?
-
-I learned to combine rails and react by creating a rails app with webpack enabled by including --webpack=react flag. Learned to create routes. Reaffirmed my knowledge in making axios API calls, and writing asynchronous code in React JS. 
-
-# What I can do better if I had time?
-
-I would have definitely implemented a drag and drop function instead of buttons to make changes in the dock position of a boat.
-
-
